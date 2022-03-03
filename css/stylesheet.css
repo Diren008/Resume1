@@ -1,3 +1,12 @@
+header {
+  text-align: center;
+}
+
+#profilephoto{
+  width: 45%;
+  border-radius: 50%;
+  border: 4px solid ; color: #ffe922;
+}
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,15 +17,7 @@ body{
     flex-direction: column;
   }
   
-  header {
-    text-align: center;
-  }
-  
-  #profilephoto{
-    width: 45%;
-    border-radius: 50%;
-    border: 4px solid ; color: #ffe922;
-  }
+
   .topnav {
     float: center ;
     color: #3b3939;
@@ -35,18 +36,18 @@ body{
   }
 
   /* hover style for nav menu */
-  .topnav a:hover{
-color: rgb(255, 255, 255);
-background-color: rgb(22, 0, 221);
-padding-left: 0pt;
-padding-right: 0pt;
-padding-top: 2pt;
-padding-bottom: 2pt;
-width: 20% ;
+      .topnav a:hover{
+      color: rgb(255, 255, 255);
+      background-color: rgb(22, 0, 221);
+      padding-left: 0pt;
+      padding-right: 0pt;
+      padding-top: 2pt;
+      padding-bottom: 2pt;
+      width: 20% ;
 }
 
-.topnav style{
-  color: #000000
+      .topnav style{
+        color: #000000
 }
 
   .main{
