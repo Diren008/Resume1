@@ -34,6 +34,7 @@ body{
     display:flex;justify-content: space-between; color: #000000;
   }
 
+  /* hover style for nav menu */
   .topnav a:hover{
 color: rgb(255, 255, 255);
 background-color: rgb(22, 0, 221);
@@ -87,7 +88,7 @@ h3{
   color: #000000;
   font-size: 20pt;
 }
-
+/* hover style for social links */
   a:hover {
     background-color: rgb(72, 253, 0);
     width: 100%;
